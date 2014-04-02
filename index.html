@@ -1,231 +1,122 @@
 ﻿<!DOCTYPE html>
-<!--[if lt IE 7]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class='no-js' lang='en'>
-	<!--<![endif]-->
-	<head>
-		<meta charset='utf-8' />
-		<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible' />
-		<title>chime</title>
-        <meta name='description' content='chimeh's blog 博客 记录 技术 生活 linux 嵌入式 半导体 互联网 pelican python'  />
-        <meta  name='author' content='jim'/>
-        <meta name="distribution" content="" />
-		<meta name="language" content="zh" />
-		<meta content='width=device-width, initial-scale=1.0' name='viewport' />
-        
+<html lang="en">
+  <head>
+    <title>chime</title>
+    <meta name='description' content='chimeh's blog 博客 记录 技术 生活 linux 嵌入式 半导体 互联网 pelican python'  />
+    <meta  name='author' content='jim'/>
+    <meta name="distribution" content="" />    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://chimeh.github.io/theme/bootstrap/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="http://chimeh.github.io/theme/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://chimeh.github.io/theme/bootswatch/bootswatch.min.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://chimeh.github.io/theme/bgcfg.css">
+    <link href="http://chimeh.github.io/theme/pygments.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/bootstrap/assets/js/html5shiv.js"></script>
+      <script src="../bower_components/bootstrap/assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body class="preview">
 
-		
-		<link rel="stylesheet" href="http://chimeh.github.io/theme/jquery/jquery.maximage.css?v=1.2" type="text/css" media="screen" charset="utf-8" />
-		<link rel="stylesheet" href="http://chimeh.github.io/theme/othercss/screen.css?v=1.2" type="text/css" media="screen" charset="utf-8" />
-		
-		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-		
-		<style type="text/css" media="screen">
-			html,body {overflow:hidden} /*Force hidden scrollbars (mostly for older browsers)*/
-			
-			#maximage {
-				display:none;/* Only use this if you fade it in again after the images load */
-			}
-			
-			/*Set my logo in bottom center*/
-			#logo {
-				bottom:20px;
-				height:auto;
-				left:0;
-				position:absolute;
-				width:100%;
-				text-align:center;
-				z-index:1000;
-			}
-			
-			
-			#logo img {
-				height:56px;
-				opacity: .2;
-			}
-			#logo img:hover
-			{
-				opacity: 1;
-			}
-			
-			#prev,#next
-			{
-				height: 100%;
-				moz-outline-style: none;
-				outline: 0;
-				outline-style: none;
-				position: absolute;
-				top: 0;
-				width: 10%;
-				z-index: 1000;
-			}
-			#prev
-			{
-				left: 0;
-			}
-			#next
-			{
-				right: 0;
-			}
-			#prev:after,#next:after
-			{
-				border-style: solid;
-				border-width: 30px;
-				content: ' ';
-				height: 0;
-				opacity: .2;
-				position: absolute;
-				top: 45%;
-				width: 0;
-				z-index: 150;
-			}
-			#prev:after
-			{
-				border-color: transparent white transparent transparent;
-				left: 0;
-			}
-			#next:after
-			{
-				border-color: transparent transparent transparent white;
-				right: 0;
-			}
-			#prev:hover:after,#next:hover:after
-			{
-				opacity: 1;
-			}
-			 .player {
-			   position:relative;
-				margin: 0 auto;
-				height:auto;
-				width:240px;
-				text-align:center;
-				z-index:1000;
-			}
-		</style>
-		
-		<!--[if IE 6]>
-			<style type="text/css" media="screen">
-				/*I don't feel like messing with pngs for this browser... sorry*/
-				#gradient {display:none;}
-			</style>
-		<![endif]-->
-	</head>
-	<body>
-	
-		<a href="http://chimeh.github.io/allarticles" id="logo" target="_blank" ><img src="http://chimeh.github.io/static/images/welcome/logo.png" alt="chime welcome slideshows" /></a>
-		
-		
-		
-		
-		<style type="text/css" media="screen">
-			.curtains {
-				height:100%;
-				left:0;
-				position:absolute;
-				top:0;
-				width:100%;
-				z-index:99;
-			}
-			.curtains span {
-				background:#fff;
-				position:absolute;
-			}
-			.curtains .top {
-				height:0px;
-				left:0;
-				top:0;
-				width:100%;
-			}
-			.curtains .right {
-				height:100%;
-				right:0;
-				top:0;
-				width:0px;
-			}
-			.curtains .bottom {
-				bottom:0;
-				height:0px;
-				left:0;
-				width:100%;
-			}
-			.curtains .left {
-				height:100%;
-				left:0;
-				top:0;
-				width:0px;
-			}
-		</style>
-<div class="curtains">
-	<span class="top"></span>
-	<span class="right"></span>
-	<span class="bottom"></span>
-	<span class="left"></span>
-</div>
-<a href="" id="prev"></a>
-<a href="" id="next"></a>
-<!-- markdown will auto wrap p tag -->
-<!-- 背景音乐设置 -->
 
-<!-- 下面的mp3=需与pelicanconf的static配合 -->
+ 
+    <div class="container">
+    <a name="begin"></a>
+    
+<!--      -->
+         <div class="splash container ">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>chime's blog</h1>
+            <div class="navsocial">
+            <ul>
+                  <li><div class="social" ><a href="http://github.com/chimeh" target="_blank">github</a></div></li>
+                  <li><div class="social" ><a href="http://stackoverflow.com/users/2831802/hmean" target="_blank">stackoverflow</a></div></li>
+                  <li><div class="social" ><a href="http://www.xiami.com/u/18804092" target="_blank">xiami</a></div></li>
+                  <li><div class="social" ><a href="http://www.flickr.com/" target="_blank">flickr</a></div></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<div class="player">
-<object  type="application/x-shockwave-flash" data="/theme/dewplayer-rect.swf" width="240" height="20" id="dewplayer" name="dewplayer">
-    <param name="wmode" value="transparent" />
-    <param name="movie" value="/theme/dewplayer-rect.swf" />
-    <param name="flashvars" value="mp3=
-    https://dl.dropboxusercontent.com/u/108623753/music/hello_saferide-long_lost_penpal.mp3|
-    https://dl.dropboxusercontent.com/u/108623753/music/tour.mp3|
-    /static/music/tour.mp3&amp;autostart=0&amp;autoreplay=1&amp;showtime=1&amp;nopointer=1&amp;randomplay=1&amp;volume=50" /> 
-</object>
-</div>
+    
+    <p class="set1"> </p>
+    <div class="basecontent">       
+    <section id="content" class="pagecontainer">    
+    <hr>
 
-<!-- 幻灯片设置 -->
+<h2 id="me">Me</h2>
+<p>chime [kiˈmi] aka  基米，jim，hmean <br />
+简历 \&amp; resume: <a href="http://chimeh.gitcafe.com/resume/ChimeHuang_UESTC_Communication.pdf">ChimeHuang_UESTC_Communication.pdf</a>   </p>
+<h2 id="website">Website</h2>
+<p>个人博客。<br />
+gitcafe镜像(国内较快): <a href="http://chimeh.gitcafe.com/blog/">http://chimeh.gitcafe.com/blog/</a><br />
+github镜像(国内较慢): <a href="http://chimeh.github.com/blog/">http://chimeh.github.com/blog/</a>  </p>
+<h2 id="project">Project</h2>
+<p>See at github(global): <a href="http://github.com/chimeh">http://github.com/chimeh</a><br />
+See at gitcafe(CN)： <a href="http://gitcafe.com/chimeh">http://gitcafe.com/chimeh</a><br />
+之前使用github用户名hmean：<a href="http://github.com/hmean">http://github.com/hmean</a>未做重定向，不再使用  </p>
+    </section>
+    </div>
+    
+    
+    
+    
+    
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            
+           <ul class="list-unstyled">
+<!--              <li class="pull-right"><a href="#top">Back to top</a></li>-->
+              <li id="back-to-top" class=" pull-right"><a href="#"><i class="icon-angle-up icon-3x"></i></a></li>  <!--  link back to top -->
+<!--               <li><a href="http://news.bootswatch.com" onclick="pageTracker._link(this.href); return false;">Blog</a></li>
+              <li><a href="http://feeds.feedburner.com/bootswatch">RSS</a></li>
+              <li><a href="https://twitter.com/thomashpark">Twitter</a></li>
+              <li><a href="https://github.com/thomaspark/bootswatch/">GitHub</a></li>
+              <li><a href="../help/#api">API</a></li> -->
+            </ul>
+<!--            <p>power by <a href="http://blog.getpelican.com/">pelican</a></p>-->
+          </div>
+        </div>
+      </footer>
 
-<div id="maximage">
-<img alt="link to picture" src="static/images/welcome/life.jpg" />
-<img alt="link to picture" src="static/images/welcome/school_road_color.jpg" />
-</div>
-<!-- markdown will auto wrap p tag -->
-	
-	
-		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js'></script>
-		<script src="/theme/jquery/jquery.cycle.all.js" type="text/javascript" charset="utf-8"></script>
-		<script src="/theme/jquery/jquery.maximage.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript" charset="utf-8">
-			$(function(){
-				// Trigger maximage
-				jQuery('#maximage').maximage({
-					cssBackgroundSize: false, // We don't want to use background-size:cover for our custom size
-					cycleOptions: {
-								fx: 'fade',
-								speed: 1000,
-								timeout: 5000,
-								prev: '#prev',
-								next: '#next',
-								pause: 1
-								},
-					backgroundSize: function( $item ){
-						var verticalOffset = 0, // Top offset + Bottom offset
-							horizontalOffset = 0; // Left offset + Right offset
-			
-						if($.Window.data('w') / $.Window.data('h') < $item.data('ar')){ // Image size based on height
-							$item
-								.height($.Window.data('h') - verticalOffset)
-								.width((($.Window.data('h') - verticalOffset) * $item.data('ar')).toFixed(0));
-						}else{ // Image size based on width
-							$item
-								.height((($.Window.data('w') - horizontalOffset) / $item.data('ar')).toFixed(0))
-								.width($.Window.data('w') - horizontalOffset);
-						}
-					},
-					onImagesLoaded: function(){
-						jQuery('#maximage').fadeIn();
-					}
-				});
-			});
-		</script>
+    </div>  <!-- end container-->
+
+
+    <script src="http://chimeh.github.io/theme/jquery/jquery.min.js"></script>
+    <script src="http://chimeh.github.io/theme/bootstrap/bootstrap.min.js"></script>
+    <script src="http://chimeh.github.io/theme/bootswatch/bootswatch.js"></script>
+    <script src="http://chimeh.github.io/theme/jquery/jquery.js""></script> 
+    <script src="http://chimeh.github.io/theme/jquery/jquery.scrollto.js""></script> 
+    <script src="http://chimeh.github.io/theme/jquery/jquery.localscroll.js""></script> 
+    <script type="text/javascript" charset="utf-8">
+                        $(function(){
+                                var scrollOpts = {
+                                        queue:true,
+                                        duration:1500,
+                                        offset:-100,
+                                        hash:true
+                                };
+                                
+                                $.localScroll.hash( scrollOpts );
+                                $.localScroll( scrollOpts );
+                                
+                                $('#back-to-top').click(function(e){
+                                        $.scrollTo(0, 1500);
+                                        e.preventDefault();
+                                });
+                        });
+                
+    </script>
 ﻿
 <div style="display:none">
 <script language="javascript" type="text/javascript"
@@ -246,5 +137,6 @@ src="http://img.users.51.la/16451071.asp" style="border:none" /></a>
   ga('send', 'pageview');
 </script>
 
+        
   </body>
 </html>
