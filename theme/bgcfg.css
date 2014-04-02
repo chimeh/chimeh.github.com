@@ -49,6 +49,7 @@ p{font-size:14px;}
 .social a[href*='facebook.com']:before {content: url('./images/icons/facebook.png'); margin-right: 2px; vertical-align: -3px;}
 .social a[href*='twitter.com']:before {content: url('./images/icons/twitter.png'); margin-right: 2px; vertical-align: -3px;}
 .social a[href*='delicious.com']:before {content: url('./images/icons/delicious.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='163.com']:before {content: url('./images/icons/163.png'); margin-right: 2px; vertical-align: -3px;}
 
 .social a[href*='google.com/reader']:before {content: url('./images/icons/reader.png'); margin-right: 2px; vertical-align: -3px;}
 .social a[href*='code.google.com']:before {content: url('./images/icons/phosting.png'); margin-right: 2px; vertical-align: -3px;}
@@ -60,3 +61,5 @@ p{font-size:14px;}
 .social a[href*='xiami.com']:before {content: url('./images/icons/xiami.png'); margin-right: 2px; vertical-align: -3px;}
 .social a[href*='weibo.com']:before {content: url('./images/icons/weibo.png'); margin-right: 2px; vertical-align: -3px;}
 .social a[href*='zhihu.com']:before {content: url('./images/icons/zhihu.png'); margin-right: 2px; vertical-align: -3px;}
+
+
