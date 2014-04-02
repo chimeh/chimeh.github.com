@@ -5,7 +5,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://chimeh.github.io/index.html</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
@@ -103,147 +103,154 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://chimeh.github.io/categories/ji-zhu/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/categories/kao-yan/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/categories/misc/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/categories/wang-zhan-ce-shi/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/categories/xiao-yuan/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/categories/xin-qing/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/tags/xiao-yuan/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/tags/pelican/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/tags/ce-shi-tags/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/tags/xuan-ze/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.6</priority>
-</url>
-
-<url>
-<loc>http://chimeh.github.io/tags/da-si-kao-yan-zhao-gong-zuo/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/tags/rtos/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
-<loc>http://chimeh.github.io/tags/ji-suan-ji-ke-cheng-zi-yuan/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<loc>http://chimeh.github.io/tags/da-si/</loc>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/tags/bo-ke-li-ji-suan-ji-ke-cheng/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/tags/qian-ru-shi-cao-zuo-xi-tong/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>http://chimeh.github.io/tags/zhao-gong-zuo/</loc>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.6</priority>
+</url>
+
+<url>
+<loc>http://chimeh.github.io/tags/ji-suan-ji-ke-cheng-zi-yuan/</loc>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/tags/kao-yan/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/tags/jing-tai-bo-ke/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/tags/han-shu-shi-bian-cheng-yu-yan/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/tags/scheme/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/tags/berkeley/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
 
 <url>
 <loc>http://chimeh.github.io/author/jim/</loc>
-<lastmod>2014-04-02T19:58:10-00:00</lastmod>
+<lastmod>2014-04-02T20:02:43-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.6</priority>
 </url>
