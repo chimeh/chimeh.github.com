@@ -1,0 +1,62 @@
+body{font-family: "Lato","Helvetica Neue","Microsoft YaHei",stsong,SimSun,Helvetica,Arial,sans-serif,Inconsolata;}
+/*body{font-family:"Lato","Helvetica Neue",Helvetica,stsong,Arial,sans-serif;}*/
+h1, h2, h3{font-size:22px;}
+h4 h5 h6{font-size:18px;}
+p{font-size:14px}
+
+#back-to-top {bottom:20px;position:fixed;right:20px;}
+.navbar-default{opacity:0.5;}
+.preview{padding-top:100px;}
+.container {width:780px;}  
+
+.splash{color:#474747 ;background:#ffffff ;}
+.splash {padding-bottom:100px;}
+.set1 {font-size:24px;margin:0  0 10px;}
+.splash h1{font-style:italic;}
+
+
+img{max-width:100%;}/* 为图片可缩放至进容器 */ 
+
+body{font-family: Verdana"Lato","Helvetica Neue",stsong,"Microsoft YaHei",Helvetica,Arial,sans-serif,Inconsolata;
+     font-size:14px;}
+
+h1{font-size:22px;}
+h2, h3, h4{font-size:18px;}
+h h5 h6{font-size:16px;}
+p{font-size:14px;}
+
+ .centered {margin:0 auto 80px;width:560px;} 
+.navsocial:after {content:""; display:block; height:0; visibility:hidden; clear:both; }
+.navsocial {padding:0px 89px 0px;}
+.navsocial li{float:left;
+              list-style:none;
+              width:129px;
+              padding:0px;
+              margin:auto;
+              padding:0px;}
+
+ .social {text-align:center;}
+/* Styling for Sidebar */
+.social a[href*='atom.xml']:before {content: url('./images/icons/rss.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='rss.xml']:before {content: url('./images/icons/rss.png'); margin-right: 2px; vertical-align: -3px;}
+
+.social a[href*='jamendo.com']:before {content: url('./images/icons/jamendo.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='last.fm']:before {content: url('./images/icons/lastfm.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='linkedin.com']:before {content: url('./images/icons/linkedin.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='stackoverflow.com']:before {content: url('./images/icons/stackoverflow.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='digg.com']:before {content: url('./images/icons/digg.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='flickr.com']:before {content: url('./images/icons/flickr.png'); margin-right: 2px; vertical-align: -3px; }
+.social a[href*='facebook.com']:before {content: url('./images/icons/facebook.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='twitter.com']:before {content: url('./images/icons/twitter.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='delicious.com']:before {content: url('./images/icons/delicious.png'); margin-right: 2px; vertical-align: -3px;}
+
+.social a[href*='google.com/reader']:before {content: url('./images/icons/reader.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='code.google.com']:before {content: url('./images/icons/phosting.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='activestate.com']:before {content: url('./images/icons/activestate.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='gitorious.org']:before {content: url('./images/icons/gitorious.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='bitbucket.org']:before {content: url('./images/icons/bitbucket.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='github.com']:before {content: url('./images/icons/github.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='stackoverflow.com']:before {content: url('./images/icons/stackoverflow.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='xiami.com']:before {content: url('./images/icons/xiami.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='weibo.com']:before {content: url('./images/icons/weibo.png'); margin-right: 2px; vertical-align: -3px;}
+.social a[href*='zhihu.com']:before {content: url('./images/icons/zhihu.png'); margin-right: 2px; vertical-align: -3px;}

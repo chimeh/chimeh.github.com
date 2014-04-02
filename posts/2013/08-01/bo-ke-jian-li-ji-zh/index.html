@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>chime</title>
+    <meta name='description' content='chimeh's blog 博客 记录 技术 生活 linux 嵌入式 半导体 互联网 pelican python'  />
+    <meta  name='author' content='jim'/>
+    <meta name="distribution" content="" />    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://chimeh.github.io/theme/bootstrap/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="http://chimeh.github.io/theme/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://chimeh.github.io/theme/bootswatch/bootswatch.min.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://chimeh.github.io/theme/bgcfg.css">
+    <link href="http://chimeh.github.io/theme/pygments.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/bootstrap/assets/js/html5shiv.js"></script>
+      <script src="../bower_components/bootstrap/assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body class="preview">
+
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="http://chimeh.github.io/allarticles" class="navbar-brand">chime</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+<!--          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Download <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="download">
+                <li><a tabindex="-1" href="./bootstrap.min.css">bootstrap.min.css</a></li>
+                <li><a tabindex="-1" href="./bootstrap.css">bootstrap.css</a></li>
+              </ul>
+            </li>
+          </ul>-->
+
+          <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://chimeh.github.io/archives/#begin" target="_blank">Archives</a></li>
+                <li><a href="http://chimeh.github.io/tags/#begin" target="_blank">Tags</a></li>
+                <li><a href="http://chimeh.github.io/categories/#begin" target="_blank">Categories</a></li>
+ 
+                <li><a href="http://chimeh.github.io/resume/resume-zh.html" target="_blank">Resume</a></li>           
+                <li><a href="http://chimeh.github.io/pages/about">About</a></li>
+          </ul>
+
+        </div>
+      </div> <!--end container-->
+    </div> <!--end navbar-->
+    
+
+ 
+     <div class="splash container ">
+<!--      <div class="container">-->
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>chime's blog</h1>
+            <div class="navsocial">
+            <ul>
+                  <li><div class="social" ><a href="http://github.com/chimeh" target="_blank">github</a></div></li>
+                  <li><div class="social" ><a href="http://stackoverflow.com/users/2831802/hmean" target="_blank">stackoverflow</a></div></li>
+                  <li><div class="social" ><a href="http://www.xiami.com/u/18804092" target="_blank">xiami</a></div></li>
+                  <li><div class="social" ><a href="http://www.flickr.com/" target="_blank">flickr</a></div></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+<!--       </div>-->
+      </div>
+
+    <div class="container">
+    <a name="begin"></a>
+    <p class="set1"> </p>
+    <div class="basecontent"><div class='article'>
+<h1>博客建立记</h1>
+﻿<div class="well">
+<I>2013-08-01/四</I>
+
+  by <a class="url fn" href="http://chimeh.github.io/author/jim/#begin">jim</a>
+ 
+
+  Category:
+  <a href="http://chimeh.github.io/categories/ji-zhu/#begin">技术</a>
+
+<!-- maybe just article.html can see but others can't below, i think this is unnecessory since above -->
+<!--  -->
+<!-- maybe just article.html can see above -->
+
+
+  Tags:
+	<a href="http://chimeh.github.io/tags/pelican/#begin">pelican</a>
+	<a href="http://chimeh.github.io/tags/jing-tai-bo-ke/#begin">静态博客</a>
+
+<!-- both below can't work but above can. this is -->
+<!-- 
+ -->
+
+<!--    below can't work, since 'Category' object is not iterable , a article can't belong muti categories -->
+ <!-- 
+ -->
+</div>
+<div><p>为了在github上托管了个人博客，这些天花了不少时间和精力。其过程曲折而折腾。
+<a href="http://hmean.github.com">网址</a> <a href="http://hmean.github.com">http://hmean.github.com</a> 以下是主要过程。</p>
+<h2 id="1">1.建仓库</h2>
+<p>建立hmean.github.com
+github上建仓库。在github上新建一个repository，名为[用户名.github.com]或者[用户名.github.io]。github就会识别这用户在github上的page，而不是一般repository的page。</p>
+<h2 id="2static-blog-generator">2.找静态博客生成器static blog generator</h2>
+<p>github上的jekyll使用ruby，不想用。想找个python的经过几番查找先后试过hyde，nikola都不太理想。最后是pelican，相对好起步。pelican <a href="http://getpelican.com/">http://getpelican.com/</a>  <a href="https://github.com/getpelican/pelican">https://github.com/getpelican/pelican</a></p>
+<h2 id="3-pythonpippelican">3.安装 python，pip，pelican</h2>
+<p>在windows 上安装python2.7，接着安装pip（python的一种包管理工具，相当于ubuntu下的apt）。就各种问题了。安装pip后，使用pip再安转pelican的requirment，由于实在windows下mingw32+msys环境下C编译器编译选项等不一样又是各种出错。最后有些安装不上的包是到<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/">http://www.lfd.uci.edu/~gohlke/pythonlibs/</a>里下的二进制包。</p>
+<h2 id="4pelican">4.初步试验pelican</h2>
+<p>打开一终端输入 pelican-quickstart 按提示最后就有了一个初步模板。</p>
+<h2 id="5pelicanconfpy-pubishconfpy-makefile">5.配置pelicanconf.py pubishconf.py Makefile</h2>
+<h2 id="6">6.自己做了一个主题</h2>
+<p>把pelican-theme clone下来，阅读了几个主题的源码，参考pelican的<a href="http://docs.getpelican.com/en/3.2/">doc</a>。自己做了一个主题0tingtx。制作期间需要有大概了解了html，css前端语言的主要部分，和bootstrap前端框架。firefox浏览器对于前端开发还是很好的。</p>
+<h2 id="7">7.几张漂亮的图</h2>
+<p>下图就是使用firefox的web开发工具inspector3D显示查看google首页的html层次3D图</p>
+<p><img alt="0tingtx图1" src="/static/images/blogcr/blog_1.PNG" />  </p>
+<p><img alt="0tingtx图2" src="/static/images/blogcr/blog_2.PNG" />  </p>
+<p><img alt="0tingtx图3" src="/static/images/blogcr/blog_3.PNG" />  </p>
+<h2 id="8pelican">8.pelican的几点不好</h2>
+<p>静态引用设置</p>
+<div class="codehilite"><pre><span class="n">STATIC_PATH</span>
+<span class="n">FILES_TO_COPY</span> <span class="o">=</span> <span class="p">((</span><span class="err">&#39;</span><span class="n">CNAME</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">CNAME</span><span class="err">&#39;</span><span class="p">),)</span>
+<span class="n">STATIC_PATHS</span> <span class="o">=</span> <span class="p">[</span><span class="err">&#39;</span><span class="n">images</span><span class="err">&#39;</span> <span class="p">,</span> <span class="err">&#39;</span><span class="n">slides</span><span class="err">&#39;</span><span class="p">,</span> <span class="err">&#39;</span><span class="n">extra</span><span class="o">/</span><span class="n">robots</span><span class="p">.</span><span class="n">txt</span><span class="err">&#39;</span><span class="p">,]</span> <span class="err">#</span><span class="s">&quot;archives&quot;</span><span class="p">,</span> 
+<span class="n">Take</span> <span class="n">advantage</span> <span class="n">of</span> <span class="n">the</span> <span class="n">following</span> <span class="n">defaults</span>
+<span class="n">STATIC_SAVE_AS</span> <span class="o">=</span> <span class="err">&#39;</span><span class="p">{</span><span class="n">path</span><span class="p">}</span><span class="err">&#39;</span>
+<span class="n">STATIC_URL</span> <span class="o">=</span> <span class="err">&#39;</span><span class="p">{</span><span class="n">path</span><span class="p">}</span><span class="err">&#39;</span>
+<span class="n">EXTRA_PATH_METADATA</span> <span class="o">=</span> <span class="p">{</span>
+<span class="err">&#39;</span><span class="n">extra</span><span class="o">/</span><span class="n">robots</span><span class="p">.</span><span class="n">txt</span><span class="err">&#39;</span><span class="o">:</span> <span class="p">{</span><span class="err">&#39;</span><span class="n">path</span><span class="err">&#39;</span><span class="o">:</span> <span class="err">&#39;</span><span class="n">robots</span><span class="p">.</span><span class="n">txt</span><span class="err">&#39;</span><span class="p">},</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>等很繁琐</p></div>
+<hr>
+<h2>Comments</h2>
+﻿﻿<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'hmean'; 
+    var disqus_title = '博客建立记';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</div>
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            
+           <ul class="list-unstyled">
+<!--              <li class="pull-right"><a href="#top">Back to top</a></li>-->
+              <li id="back-to-top" class=" pull-right"><a href="#"><i class="icon-angle-up icon-3x"></i></a></li>  <!--  link back to top -->
+<!--               <li><a href="http://news.bootswatch.com" onclick="pageTracker._link(this.href); return false;">Blog</a></li>
+              <li><a href="http://feeds.feedburner.com/bootswatch">RSS</a></li>
+              <li><a href="https://twitter.com/thomashpark">Twitter</a></li>
+              <li><a href="https://github.com/thomaspark/bootswatch/">GitHub</a></li>
+              <li><a href="../help/#api">API</a></li> -->
+            </ul>
+<!--            <p>power by <a href="http://blog.getpelican.com/">pelican</a></p>-->
+          </div>
+        </div>
+      </footer>
+
+    </div>  <!-- end container-->
+
+
+    <script src="http://chimeh.github.io/theme/jquery/jquery.min.js"></script>
+    <script src="http://chimeh.github.io/theme/bootstrap/bootstrap.min.js"></script>
+    <script src="http://chimeh.github.io/theme/bootswatch/bootswatch.js"></script>
+    <script src="http://chimeh.github.io/theme/jquery/jquery.js""></script> 
+    <script src="http://chimeh.github.io/theme/jquery/jquery.scrollto.js""></script> 
+    <script src="http://chimeh.github.io/theme/jquery/jquery.localscroll.js""></script> 
+    <script type="text/javascript" charset="utf-8">
+                        $(function(){
+                                var scrollOpts = {
+                                        queue:true,
+                                        duration:1500,
+                                        offset:-100,
+                                        hash:true
+                                };
+                                
+                                $.localScroll.hash( scrollOpts );
+                                $.localScroll( scrollOpts );
+                                
+                                $('#back-to-top').click(function(e){
+                                        $.scrollTo(0, 1500);
+                                        e.preventDefault();
+                                });
+                        });
+                
+    </script>
+﻿
+<div style="display:none">
+<script language="javascript" type="text/javascript"
+src="http://js.users.51.la/16451071.js"></script>
+<noscript><a href="http://www.51.la/?16451071" target="_blank">
+<img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" 
+src="http://img.users.51.la/16451071.asp" style="border:none" /></a>
+</noscript>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42963057-1', 'http://chimeh.github.io');
+  ga('send', 'pageview');
+</script>
+
+        
+  </body>
+</html>

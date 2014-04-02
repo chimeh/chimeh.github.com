@@ -1,0 +1,1983 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>chime</title>
+    <meta name='description' content='chimeh's blog 博客 记录 技术 生活 linux 嵌入式 半导体 互联网 pelican python'  />
+    <meta  name='author' content='jim'/>
+    <meta name="distribution" content="" />    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://chimeh.github.io/theme/bootstrap/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="http://chimeh.github.io/theme/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://chimeh.github.io/theme/bootswatch/bootswatch.min.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://chimeh.github.io/theme/bgcfg.css">
+    <link href="http://chimeh.github.io/theme/pygments.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../bower_components/bootstrap/assets/js/html5shiv.js"></script>
+      <script src="../bower_components/bootstrap/assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body class="preview">
+
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="http://chimeh.github.io/allarticles" class="navbar-brand">chime</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+<!--          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Download <span class="caret"></span></a>
+              <ul class="dropdown-menu" aria-labelledby="download">
+                <li><a tabindex="-1" href="./bootstrap.min.css">bootstrap.min.css</a></li>
+                <li><a tabindex="-1" href="./bootstrap.css">bootstrap.css</a></li>
+              </ul>
+            </li>
+          </ul>-->
+
+          <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://chimeh.github.io/archives/#begin" target="_blank">Archives</a></li>
+                <li><a href="http://chimeh.github.io/tags/#begin" target="_blank">Tags</a></li>
+                <li><a href="http://chimeh.github.io/categories/#begin" target="_blank">Categories</a></li>
+ 
+                <li><a href="http://chimeh.github.io/resume/resume-zh.html" target="_blank">Resume</a></li>           
+                <li><a href="http://chimeh.github.io/pages/about">About</a></li>
+          </ul>
+
+        </div>
+      </div> <!--end container-->
+    </div> <!--end navbar-->
+    
+
+ 
+     <div class="splash container ">
+<!--      <div class="container">-->
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>chime's blog</h1>
+            <div class="navsocial">
+            <ul>
+                  <li><div class="social" ><a href="http://github.com/chimeh" target="_blank">github</a></div></li>
+                  <li><div class="social" ><a href="http://stackoverflow.com/users/2831802/hmean" target="_blank">stackoverflow</a></div></li>
+                  <li><div class="social" ><a href="http://www.xiami.com/u/18804092" target="_blank">xiami</a></div></li>
+                  <li><div class="social" ><a href="http://www.flickr.com/" target="_blank">flickr</a></div></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+<!--       </div>-->
+      </div>
+
+    <div class="container">
+    <a name="begin"></a>
+    <p class="set1"> </p>
+    <div class="basecontent"><div class='article'>
+<h1>UC Berkeley EECS课程资源介绍</h1>
+﻿<div class="well">
+<I>2013-09-28/六</I>
+
+  by <a class="url fn" href="http://chimeh.github.io/author/jim/#begin">jim</a>
+ 
+
+  Category:
+  <a href="http://chimeh.github.io/categories/ji-zhu/#begin">技术</a>
+
+<!-- maybe just article.html can see but others can't below, i think this is unnecessory since above -->
+<!--  -->
+<!-- maybe just article.html can see above -->
+
+
+  Tags:
+	<a href="http://chimeh.github.io/tags/ji-suan-ji-ke-cheng-zi-yuan/#begin">计算机课程资源</a>
+	<a href="http://chimeh.github.io/tags/berkeley/#begin">Berkeley</a>
+	<a href="http://chimeh.github.io/tags/bo-ke-li-ji-suan-ji-ke-cheng/#begin">伯克利计算机课程</a>
+
+<!-- both below can't work but above can. this is -->
+<!-- 
+ -->
+
+<!--    below can't work, since 'Category' object is not iterable , a article can't belong muti categories -->
+ <!-- 
+ -->
+</div>
+<div><div class="toc">
+<ul>
+<li><a href="#uc-berkeleyeecs">UC Berkeley的EECS系</a></li>
+<li><a href="#uc-berkeleyeecs_1">UC Berkeley的EECS课程</a></li>
+<li><a href="#_1">如何充分利用</a><ul>
+<li><a href="#electrical-and-computer-engineering-ece">Electrical and Computer Engineering (ECE)</a></li>
+<li><a href="#computer-science-and-engineering-cse">Computer Science and Engineering (CSE)</a></li>
+<li><a href="#eecs-honors-degree-program">EECS Honors Degree Program</a></li>
+<li><a href="#double-majors">Double Majors</a></li>
+</ul>
+</li>
+<li><a href="#uc-berkeley-eecs">UC Berkeley EECS课程集合</a></li>
+</ul>
+</div>
+<hr />
+<p>相比<a href="http://ocw.mit.edu/">MIT OPENCOURSE</a>的宏大，Berkeley并没有专门把开放课程资源作为一项计划。但美国的大学教育普遍充分利用互联网，把许多教学资源放到网络上。Berkeley工程学院的电子与计算机系放到互联网上的课程资源很不错，对于国内电子、通信、计算机、互联网行业的同学是不错的资源。</p>
+<h2 id="uc-berkeleyeecs">UC Berkeley的EECS系</h2>
+<p>电子计算机系(<a href="http://www.eecs.berkeley.edu/">Department of Electrical Engineering and Computer Sciences</a>)属于加州大学伯克利分校
+（<a href="http://zh.wikipedia.org/wiki/%E6%9F%8F%E5%85%8B%E8%90%8A%E5%8A%A0%E5%B7%9E%E5%A4%A7%E5%AD%B8">University of California,Berkeley</a>）的十几个学院之一的工程学院(<a href="http://coe.berkeley.edu/">Collage of Engineering</a>)的一个系(Department)。</p>
+<h2 id="uc-berkeleyeecs_1">UC Berkeley的EECS课程</h2>
+<p>这些课程都是专业相关的，没有包含数学基础等其他课程(<a href="#伯克利EECS课程">课程参见</a>)。
+原地址<a href="http://www-inst.eecs.berkeley.edu/classes-eecs.html">Berkeley EECS课程网站</a>。</p>
+<h2 id="_1">如何充分利用</h2>
+<p>除了由自己选择课程，想系统学习的可参见Berkeley给出的学位方案(<a href="http://www.eecs.berkeley.edu/education/degrees.shtml">Degree program</a>)。
+EECS系的本科手册(<a href="http://www.eecs.berkeley.edu/Programs/Notes/index.shtml">undergraduate handbook</a>)，手册中有不同学位方案的介绍、相应的推荐课程选择表等等。
+这里从undergraduate handbook摘抄一部分关于不同学位方向的说明。更多可在(http://www.eecs.berkeley.edu/)找到。</p>
+<h3 id="electrical-and-computer-engineering-ece">Electrical and Computer Engineering (ECE)</h3>
+<p>Within the ECE program, students may choose to further specialize their course of study by selecting one of the following options within the EECS curriculum:</p>
+<ul>
+<li>
+<p><strong>Electronics (Option I)</strong><br />
+For students interested in integrated circuits, including fabrication technology, solid state devices, digital and analog circuits analysis and design, VLSI design, and computer-aided design and manufacturing; and for students interested in microelectromechanical systems, electromagnetics, acoustics, optoelectronics, plasmas, cryoelectronics, and antennas and propagation.</p>
+</li>
+<li>
+<p><strong>Communications, Networks and Systems (Option II)</strong><br />
+For students with interests in networks, control, robotics, digital and analog communications, computer networks, signal processing, systems design and optimization, or power systems planning and operation; or for students with an interest in biology or medicine as well as electrical engineering, including biological sensors and signals, signal and image processing, and analysis and modeling of biological systems.</p>
+</li>
+<li>
+<p><strong>Computer Systems (Option III)</strong><br />
+For students interested in machine architecture and logic design, operating systems, database systems, programming systems and languages, or digital devices and circuits.</p>
+</li>
+<li>
+<p><strong>Computer Science (Option IV)</strong><br />
+See Computer Science and Engineering (CSE) below.</p>
+</li>
+<li>
+<p><strong>General Course of Study (Option V)</strong><br />
+For students whose interests are broad or are not yet focused on a specific field, this very flexible program enables students to explore several of the areas of electrical engineering and computer sciences.</p>
+</li>
+</ul>
+<h3 id="computer-science-and-engineering-cse">Computer Science and Engineering (CSE)</h3>
+<p>There are two different major programs in CS at Berkeley. One major leads to the Bachelor of Arts (see below) and the other, the CSE major, leads to the Bachelor of Science.</p>
+<p>The CSE program includes Option IV (Computer Science). The Computer Science option is for students with interests in all aspects of computer science, including design and analysis of algorithms, complexity theory, artificial intelligence, computer graphics, and database systems. The transcripts of students in Option IV indicate that their degree is from the computer science and engineering program.</p>
+<h3 id="eecs-honors-degree-program">EECS Honors Degree Program</h3>
+<p>The EECS Honors Degree Program is designed to provide very talented undergraduate students with more flexibility at the undergraduate level. Honors students select an academic concentration outside of EECS, and are allowed twenty extra units beyond the B.S. degree requirements to explore this "breadth" area. In addition, students receive a special faculty advisor, engage in research, receive official notation of the honors degree on their Berkeley transcript, and are invited to special events with faculty and EECS Honors alumni.</p>
+<h3 id="double-majors">Double Majors</h3>
+<p>The Department offers Double Major Programs designed to qualify students for employment in either of two major fields of engineering, or for positions where competence in both fields is required. Both majors are listed on the student's transcript. Two such double majors are currently established, which we describe below.</p>
+<ul>
+<li>
+<p><strong>EECS/Materials Science and Engineering</strong><br />
+For students interested in materials and devices, a double major in EECS/MSE can be valuable. The program combines the study of materials from a broad perspective, as taught in MSE, with the study of their applications in electronic devices and circuits, as taught in EECS. Students selecting this double major program have two Faculty Advisors, Professors Lutgard De Jonghe in MSE and Ali Javey in EECS.</p>
+</li>
+<li>
+<p><strong>EECS/Nuclear Engineering</strong><br />
+The EECS/NE double major combines the traditional EE program with one in the nuclear sciences. Nuclear Engineering shares with EE a concern for electrical power generation, automatic control, computer sciences and plasmas. The Faculty Advisors for this program are Professors Michael Lustig for EECS and Edward Morse for NE.</p>
+</li>
+</ul>
+<h2 id="uc-berkeley-eecs">UC Berkeley EECS课程集合</h2>
+<hr />
+<p><HTML>
+  <HEAD>
+    <TITLE>EECS Course WEB Sites</TITLE>
+    <style>
+    BODY {font-size: 12pt; font-family: default;}
+    TABLE, TR, TD {font-size: 10pt; font-family: default; }
+    TABLE.all     {border-collapse: collapse; border: 1px solid white;}
+    TABLE.column  {border-collapse: collapse; border: 1px solid black;}
+    DIV.subtitle  {font-size: 14pt; font-family: Courier; font-weight: bold;}
+    </style></p>
+<p></HEAD>
+  <BODY>
+  <CENTER>
+<a href="http://inst.eecs.berkeley.edu/">
+<img alt="EECS Instructional Support Group, Department of Electrical Engineering &amp; Computer Science" src="http://inst.eecs.berkeley.edu/images/iesg2.jpg" /></a></p>
+<p><font size=2>
+[
+<a href="http://inst.eecs.berkeley.edu/">ISG home page</a>
+] [
+<a href="http://inst.eecs.berkeley.edu/~inst">who we are</a>
+] [
+<a href="mailto:inst@eecs.berkeley.edu">send us email</a>
+] [
+<a href="http://inst.eecs.berkeley.edu/query.html">search</a>
+] [
+<a href="http://inst.eecs.berkeley.edu/faq.html">FAQ</a>
+] 
+</font>
+</CENTER></p>
+<p><p>
+  <center></p>
+<h2></h2>
+<p>EECS Course WEB Sites
+  <font size='-1'>
+  <p>
+  <table>
+    <tr> 
+      <td valign='top' align='right'> Course Descriptions, Schedules, Units:</td>
+      <td valign='top'> &nbsp; </td>
+      <td valign='top'> <li> <a href="http://www.eecs.berkeley.edu/Scheduling/CS/schedule.html">CS Classes</a> </td>
+      <td valign='top'> &nbsp; </td>
+      <td valign='top'> <li> <a href="http://www.eecs.berkeley.edu/Scheduling/EE/schedule.html">EE Classes</a> </td>
+      <td valign='top'> &nbsp; </td>
+      <td valign='top'> <li> <a href="http://www.berkeley.edu/catalog/">General Catalog</a> </td>
+    </tr>
+      <td valign='top' align='right'>Per-semester WEB pages:</td>
+      <td valign='top'> &nbsp; </td>
+      <td valign='top'> <li> <a href="#cs">CS Classes</a> </td>
+      <td valign='top'> &nbsp; </td>
+      <td valign='top'> <li> <a href="#ee">EE Classes</a> </td>
+      <td valign='top'> &nbsp; </td>
+      <td valign='top'> <li> <a href="#other">Other Classes</a> </td>
+    </tr>
+    <tr> 
+  </table>
+  </font></p>
+<p><table class='all'>
+  <tr>
+  <td valign='top' width='48%'>
+  <a name='cs'>
+  <DIV class='subtitle'>CS Classes</DIV>
+  <table class='column' width='100%' bgcolor='#FFFFBB'>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href='/~cs3'>CS3</a></td>
+  <td valign='top'><u>Introduction to Symbolic Programming</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs3/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs3l">CS3L</a></td>
+  <td valign='top'><u>Introduction to Symbolic Programming</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs3l/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs3s">CS3S</a></td>
+  <td valign='top'><u>Introduction to Symbolic Programming</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs3s/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs4">CS4</a></td>
+  <td valign='top'><u>Introduction to Computing for Engineers</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs4/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs9a">CS9A</a></td>
+  <td valign='top'><u>Matlab for Programmers</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs9a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs9b">CS9B</a></td>
+  <td valign='top'><u>Pascal for Programmers</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs9b/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs9c">CS9C</a></td>
+  <td valign='top'><u>C for Programmers</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs9c/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs9d">CS9D</a></td>
+  <td valign='top'><u>Scheme and Functional Programming for Programmers</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs9d/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs9e">CS9E</a></td>
+  <td valign='top'><u>Productive Use of the UNIX Environment</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs9e/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs9e-1">CS9E-1</a></td>
+  <td valign='top'><u>(see CS9E)</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs9e-1/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs9e-2">CS9E-2</a></td>
+  <td valign='top'><u>(see CS9E)</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs9e-2/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs9f">CS9F</a></td>
+  <td valign='top'><u>C++ for Programmers</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs9f/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs9g">CS9G</a></td>
+  <td valign='top'><u>JAVA for Programmers</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs9g/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs9h">CS9H</a></td>
+  <td valign='top'><u>Python for Programmers</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs9h/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs10">CS10</a></td>
+  <td valign='top'><u>Beauty of Computing</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs10/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs30s">CS30S</a></td>
+  <td valign='top'><u>unknown</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs30s/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs39a">CS39A</a></td>
+  <td valign='top'><u>Introduction to Computer Animation</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs39a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs39e">CS39E</a></td>
+  <td valign='top'><u>Freshman Seminar</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs39e/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs39j">CS39J</a></td>
+  <td valign='top'><u>Freshman/Sophomore Seminar</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs39j/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs39k">CS39K</a></td>
+  <td valign='top'><u>Freshman/Sophomore Seminar</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs39k/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs47a">CS47A</a></td>
+  <td valign='top'><u>Completion of Work in Computer Science 61A</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs47a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs47b">CS47B</a></td>
+  <td valign='top'><u>Completion of Work in Computer Science 61B</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs47b/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs47c">CS47C</a></td>
+  <td valign='top'><u>Completion of Work in Computer Science 61C</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs47c/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs61a">CS61A</a></td>
+  <td valign='top'><u>The Structure and Interpretation of Computer Progra...</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs61a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs61b">CS61B</a></td>
+  <td valign='top'><u>Data Structures</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs61b/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs61bl">CS61BL</a></td>
+  <td valign='top'><u>Data Structures and Programming Methodology</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs61bl/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs61c">CS61C</a></td>
+  <td valign='top'><u>Machine Structures</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs61c/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs61cl">CS61CL</a></td>
+  <td valign='top'><u>Machine Structures (UCWise section)</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs61cl/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs70">CS70</a></td>
+  <td valign='top'><u>Discrete Mathematics and Probability Theory</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs70/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs79">CS79</a></td>
+  <td valign='top'><u>Societal Risks and the Law</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs79/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs84">CS84</a></td>
+  <td valign='top'><u>Interactive Choreography in 3D Tele-Immersive Spaces</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs84/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs98">CS98</a></td>
+  <td valign='top'><u>CS98/198 Directed Group Studies for Advanced Undergraduates</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs98/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs123">CS123</a></td>
+  <td valign='top'><u>ISG Test Class</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs123/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs149">CS149</a></td>
+  <td valign='top'><u>Introduction to Embedded Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs149/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs150">CS150</a></td>
+  <td valign='top'><u>Components and Design Techniques for Digital System...</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs150/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs152">CS152</a></td>
+  <td valign='top'><u>Computer Architecture and Engineering</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs152/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs160">CS160</a></td>
+  <td valign='top'><u>User Interface Design and Development</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs160/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs161">CS161</a></td>
+  <td valign='top'><u>Computer Security</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs161/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs162">CS162</a></td>
+  <td valign='top'><u>Operating Systems and System Programming</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs162/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs164">CS164</a></td>
+  <td valign='top'><u>Programming Languages and Compilers</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs164/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs169">CS169</a></td>
+  <td valign='top'><u>Software Engineering</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs169/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs170">CS170</a></td>
+  <td valign='top'><u>Efficient Algorithms and Intractable Problems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs170/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs172">CS172</a></td>
+  <td valign='top'><u>Computability and Complexity</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs172/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs174">CS174</a></td>
+  <td valign='top'><u>Combinatorics and Discrete Probability</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs174/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs182">CS182</a></td>
+  <td valign='top'><u>Neural Basis of Thought and Language</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs182/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs184">CS184</a></td>
+  <td valign='top'><u>Foundations of Computer Graphics</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs184/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs186">CS186</a></td>
+  <td valign='top'><u>Introduction to Database Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs186/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs188">CS188</a></td>
+  <td valign='top'><u>Introduction to Artificial Intelligence</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs188/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs191">CS191</a></td>
+  <td valign='top'><u>Quantum Information Science and Technology</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs191/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs194">CS194</a></td>
+  <td valign='top'><u>CS 194 Seminar Home Pages</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs194/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs195">CS195</a></td>
+  <td valign='top'><u>Social Implications of Computing</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs195/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~csh196a">CSH196A</a></td>
+  <td valign='top'><u>Senior Honors Thesis Research</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~csh196a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~csh196b">CSH196B</a></td>
+  <td valign='top'><u>Senior Honors Thesis Research</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~csh196b/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs198">CS198</a></td>
+  <td valign='top'><u>CS98/198 Directed Group Studies for Advanced Undergraduates</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs198/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs199">CS199</a></td>
+  <td valign='top'><u>Independent Study</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs199/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs234">CS234</a></td>
+  <td valign='top'><u>unknown</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs234/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs250">CS250</a></td>
+  <td valign='top'><u>VLSI Systems Design</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs250/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs252">CS252</a></td>
+  <td valign='top'><u>Graduate Computer Architecture</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs252/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs254">CS254</a></td>
+  <td valign='top'><u>Topics in VLSI Systems Design</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs254/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs260">CS260</a></td>
+  <td valign='top'><u>Research Topics in Human-Computer Interaction</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs260/archives.html">archives</a>]</td>
+  </tr></p>
+<p><tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs261">CS261</a></td>
+  <td valign='top'><u>Security in Computer Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs261/archives.html">archives</a>]</td>
+  </tr></p>
+<p><tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs261n">CS261N</a></td>
+  <td valign='top'><u>Internet and Network Security</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs261n/archives.html">archives</a>]</td>
+  </tr></p>
+<p><tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs262">CS262</a></td>
+  <td valign='top'><u>Advanced Topics in Computer Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs262/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs262a">CS262A</a></td>
+  <td valign='top'><u>Advanced Topics in Computer Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs262a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs263">CS263</a></td>
+  <td valign='top'><u>Design of Programming Languages</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs263/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs264">CS264</a></td>
+  <td valign='top'><u>Implementation of Programming Languages</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs264/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs265">CS265</a></td>
+  <td valign='top'><u>Advanced Programming Language Implementation</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs265/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs266">CS266</a></td>
+  <td valign='top'><u>Introduction to System Performance Analysis</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs266/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs267">CS267</a></td>
+  <td valign='top'><u>Applications of Parallel Computers</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs267/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs268">CS268</a></td>
+  <td valign='top'><u>Graduate Computer Networking</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs268/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs270">CS270</a></td>
+  <td valign='top'><u>Combinatorial Algorithms and Data Structures</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs270/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs274">CS274</a></td>
+  <td valign='top'><u>Computational Geometry</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs274/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs275">CS275</a></td>
+  <td valign='top'><u>unknown</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs275/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs276">CS276</a></td>
+  <td valign='top'><u>Cryptography</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs276/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs280">CS280</a></td>
+  <td valign='top'><u>Foundations of Computer Vision</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs280/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs281a">CS281A</a></td>
+  <td valign='top'><u>Statistical Learning Theory</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs281a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs281b">CS281B</a></td>
+  <td valign='top'><u>Advanced Topics in Learning and Decision Making</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs281b/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs282">CS282</a></td>
+  <td valign='top'><u>Algebraic Algorithms</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs282/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs283">CS283</a></td>
+  <td valign='top'><u>Advanced Computer Graphics Algorithms and Techniques</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs283/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs284">CS284</a></td>
+  <td valign='top'><u>Computer-Aided Geometric Design</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs284/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs285">CS285</a></td>
+  <td valign='top'><u>Solid Free-Form Modeling and Fabrication</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs285/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs286">CS286</a></td>
+  <td valign='top'><u>Implementation of Database Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs286/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs287">CS287</a></td>
+  <td valign='top'><u>Advanced Robotics</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs287/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs288">CS288</a></td>
+  <td valign='top'><u>Artificial Intelligence Approach to Natural Languag...</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs288/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs289">CS289</a></td>
+  <td valign='top'><u>Knowledge Representation and Reasoning</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs289/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs294">CS294</a></td>
+  <td valign='top'><u>CS 294 Seminar Home Pages</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs294/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs297">CS297</a></td>
+  <td valign='top'><u>Field Studies in Computer Science</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs297/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs298">CS298</a></td>
+  <td valign='top'><u>CS 298 Seminar Home Pages</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs298/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs299">CS299</a></td>
+  <td valign='top'><u>Individual Research</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs299/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs301">CS301</a></td>
+  <td valign='top'><u>Teaching Techniques for Computer Science</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs301/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs302">CS302</a></td>
+  <td valign='top'><u>Designing Computer Science Education</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs302/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs602">CS602</a></td>
+  <td valign='top'><u>Individual Study for Doctoral Students</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs602/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  </table>
+  <P>
+  <a name='other'>
+  <DIV class='subtitle'>Other Classes</DIV>
+  <table class='column' width='100%' bgcolor='#FFFFBB'>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href='/~atdp home'>ATDP HOME</a></td>
+  <td valign='top'><u>Academic Talent Development Program (ATDP)</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~atdp%20home/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cnm">CNM</a></td>
+  <td valign='top'><u>Center for New Media</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cnm/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~csuml">CSUML</a></td>
+  <td valign='top'><u>UMass Lowell OPL at UC Berkeley</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~csuml/archives.html">archives</a>]</td>
+  <tr>
+  <td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ctest">CTEST</a></td>
+  <td valign='top'><u>Prof Hilfinger's Contest</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ctest/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~atdp4">ATDP4</a></td>
+  <td valign='top'><u>School of Ed summer course</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~atdp4/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~atdp5">ATDP5</a></td>
+  <td valign='top'><u>School of Ed summer course</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~atdp5/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~atdp6">ATDP6</a></td>
+  <td valign='top'><u>School of Ed summer course</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~atdp6/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~e77s">E77S</a></td>
+  <td valign='top'><u>Scientific and Engineering Problem Solving</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~e77s/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n130">N130</a></td>
+  <td valign='top'><u>CalView EE130 - Integrated Circuit Devices</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n130/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n140">N140</a></td>
+  <td valign='top'><u>CalView EE140 - Linear Integrated Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n140/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n141">N141</a></td>
+  <td valign='top'><u>CalView EE141 - Introduction to Digital Integrated Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n141/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n142">N142</a></td>
+  <td valign='top'><u>CalView EE142 - Integrated Circuits for Communications</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n142/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~be144">BE144</a></td>
+  <td valign='top'><u>Bioengineering 144</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~be144/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n224">N224</a></td>
+  <td valign='top'><u>CalView EE224 - Digital Communication</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n224/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n225c">N225C</a></td>
+  <td valign='top'><u>CalView CS225C - VLSI Signal Processing</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n225c/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n231">N231</a></td>
+  <td valign='top'><u>CalView EE231 - Solid State Devices</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n231/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n240">N240</a></td>
+  <td valign='top'><u>CalView EE240 - Analog Integrated Circuit Design and Analysis</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n240/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n241">N241</a></td>
+  <td valign='top'><u>CalView EE241 - Advanced Digital Integrated Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n241/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n242">N242</a></td>
+  <td valign='top'><u>CalView EE242 - Advanced Integrated Circuits for Communications</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n242/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n243">N243</a></td>
+  <td valign='top'><u>CalView EE243 - Advanced IC Processing and Layout</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n243/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n245">N245</a></td>
+  <td valign='top'><u>CalView EE245 - Introduction to MEMS Design</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n245/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n247">N247</a></td>
+  <td valign='top'><u>CalView EE247 - Analog-Digital Interfaces in VLSI Technology</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n247/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n250">N250</a></td>
+  <td valign='top'><u>CalView CS250 - VLSI Systems Design</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n250/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~n252">N252</a></td>
+  <td valign='top'><u>CalView CS252 - Graduate Computer Architecture</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~n252/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'>[N260/a&gt;</td>
+  <td valign='top'><u>CalView CS260 - Research Topics in Human-Computer Interaction</u> &nbsp;
+  <a href="http://inst.eecs.berkeley.edu/~n260"><a href='/~n260/archives.html'>archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  </table>
+  <td> &nbsp; </td>
+  </td>
+  <td valign='top' width='48%'>
+  <a name='ee'>
+  <DIV class='subtitle'>EE Classes</DIV>
+  <table class='column' width='100%' bgcolor='#FFFFBB'>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href='/~ee1'>EECS1</a></td>
+  <td valign='top'><u>Introduction to EECS</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee1/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~eecsba1">EECSBA1</a></td>
+  <td valign='top'><u>Strategic Computing and Communications Technology</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~eecsba1/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee20n">EECS20N</a></td>
+  <td valign='top'><u>Structure and Interpretation of Systems and Signals</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee20n/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee24">EE24</a></td>
+  <td valign='top'><u>Freshman Seminar</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee24/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee40">EE40</a></td>
+  <td valign='top'><u>Introduction to Microelectronic Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee40/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee42">EE42</a></td>
+  <td valign='top'><u>Introduction to Digital Electronics</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee42/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee43">EE43</a></td>
+  <td valign='top'><u>Introductory Electronics Laboratory</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee43/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee98">EE98</a></td>
+  <td valign='top'><u>EE 98 Seminar Home Pages</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee98/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee100">EE100</a></td>
+  <td valign='top'><u>Electronic Techniques for Engineering</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee100/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee104">EE104</a></td>
+  <td valign='top'><u>Linear and Nonlinear Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee104/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee105">EE105</a></td>
+  <td valign='top'><u>Microelectronic Devices and Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee105/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee117">EE117</a></td>
+  <td valign='top'><u>Electromagnetic Fields and Waves</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee117/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee117b">EE117B</a></td>
+  <td valign='top'><u>Electromagnetic Fields and Waves II</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee117b/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee118">EE118</a></td>
+  <td valign='top'><u>Introduction to Optical Communication Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee118/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee119">EE119</a></td>
+  <td valign='top'><u>Introduction to Optical Engineering</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee119/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee120">EECS120</a></td>
+  <td valign='top'><u>Signals and Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee120/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee121">EE121</a></td>
+  <td valign='top'><u>Introduction to Digital Communication Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee121/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee122">EE122</a></td>
+  <td valign='top'><u>Introduction to Communication Networks</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee122/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee123">EE123</a></td>
+  <td valign='top'><u>Digital Signal Processing</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee123/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee125">EE125</a></td>
+  <td valign='top'><u>Introduction to Robotics</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee125/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee126">EE126</a></td>
+  <td valign='top'><u>Probability and Random Processes</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee126/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee127a">EE127A</a></td>
+  <td valign='top'><u>Optimization Models in Engineering</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee127a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee128">EE128</a></td>
+  <td valign='top'><u>Feedback Control</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee128/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee129">EE129</a></td>
+  <td valign='top'><u>Neural and Nonlinear Information Processing</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee129/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee130">EE130</a></td>
+  <td valign='top'><u>Integrated-Circuit Devices</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee130/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee131">EE131</a></td>
+  <td valign='top'><u>Semiconductor Electronics</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee131/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee136">EE136</a></td>
+  <td valign='top'><u>Introduction to Quantum and Optical Electronics</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee136/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee140">EE140</a></td>
+  <td valign='top'><u>Linear Integrated Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee140/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee141">EE141</a></td>
+  <td valign='top'><u>Introduction to Digital Integrated Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee141/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee142">EE142</a></td>
+  <td valign='top'><u>Integrated Circuits for Communication</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee142/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee143">EE143</a></td>
+  <td valign='top'><u>Microfabrication Technology</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee143/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee144">EE144</a></td>
+  <td valign='top'><u>Introduction to Computer-Aided Design of Integrated Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee144/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee145a">EE145A</a></td>
+  <td valign='top'><u>(renamed to EE145L)</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee145a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee145b">EE145B</a></td>
+  <td valign='top'><u>Image Processing and Reconstruction Tomography</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee145b/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee145l">EE145L</a></td>
+  <td valign='top'><u>Intro Electronic Transducer Lab</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee145l/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee145m">EE145M</a></td>
+  <td valign='top'><u>Introductory Microcomputer Interfacing Laboratory</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee145m/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee145o">EE145O</a></td>
+  <td valign='top'><u>Laboratory in the Mechanics of Organisms</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee145o/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee146">EE146</a></td>
+  <td valign='top'><u>unknown</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee146/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee147">EE147</a></td>
+  <td valign='top'><u>Introduction to Microelectromechanical Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee147/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee149">EE149</a></td>
+  <td valign='top'><u>Introduction to Embedded Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee149/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs150">EECS150</a></td>
+  <td valign='top'><u>Components and Design Techniques for Digital System...</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs150/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~cs152">EECS152</a></td>
+  <td valign='top'><u>Computer Architecture and Engineering</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~cs152/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee192">EE192</a></td>
+  <td valign='top'><u>Mechatronic Design Laboratory</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee192/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee194">EE194</a></td>
+  <td valign='top'><u>EE 194 Seminar Home Pages</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee194/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~eeh196a">EEH196A</a></td>
+  <td valign='top'><u>Senior Honors Thesis Research</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~eeh196a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee198">EE198</a></td>
+  <td valign='top'><u>EE 198 Seminar Home Pages</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee198/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee199">EE199</a></td>
+  <td valign='top'><u>Supervised Independent Study</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee199/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee201">EE201</a></td>
+  <td valign='top'><u>Strategic Computing and Communications Technology</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee201/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee210">EE210</a></td>
+  <td valign='top'><u>Applied Electromagnetic Theory</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee210/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee210b">EE210B</a></td>
+  <td valign='top'><u>Applied Electromagnetic Theory</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee210b/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee213">EE213</a></td>
+  <td valign='top'><u>Soft X-Rays and Extreme Ultraviolet Radiation</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee213/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee217">EE217</a></td>
+  <td valign='top'><u>Microwave Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee217/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee219">EE219</a></td>
+  <td valign='top'><u>unknown</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee219/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee219a">EE219A</a></td>
+  <td valign='top'><u>unknown</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee219a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee219b">EE219B</a></td>
+  <td valign='top'><u>Logic Synthesis</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee219b/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee219c">EE219C</a></td>
+  <td valign='top'><u>Computer-Aided Verification</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee219c/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee220">EE220</a></td>
+  <td valign='top'><u>Neural &amp; Nonlinear Information Processing</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee220/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee221a">EE221A</a></td>
+  <td valign='top'><u>Linear System Theory</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee221a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee222">EE222</a></td>
+  <td valign='top'><u>Nonlinear Systems--Analysis, Stability and Control</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee222/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee223">EE223</a></td>
+  <td valign='top'><u>Stochastic Systems: Estimation and Control</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee223/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee224a">EE224A</a></td>
+  <td valign='top'><u>Digital Communication</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee224a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee224b">EE224B</a></td>
+  <td valign='top'><u>Fundamentals of Wireless Communication</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee224b/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee225a">EE225A</a></td>
+  <td valign='top'><u>Digital Signal Processing</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee225a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee225b">EE225B</a></td>
+  <td valign='top'><u>Digital Image Processing</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee225b/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee225c">EE225C</a></td>
+  <td valign='top'><u>VLSI Signal Processing</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee225c/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee225d">EE225D</a></td>
+  <td valign='top'><u>Audio Signal Processing</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee225d/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee225e">EE225E</a></td>
+  <td valign='top'><u>Principles of Magnetic Resonance Imaging</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee225e/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee226a">EE226A</a></td>
+  <td valign='top'><u>Random Processes in Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee226a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee227a">EE227A</a></td>
+  <td valign='top'><u>Introduction to Convex Optimization</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee227a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee228a">EE228A</a></td>
+  <td valign='top'><u>High Speed Communications Networks</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee228a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee229">EE229</a></td>
+  <td valign='top'><u>Information Theory and Coding</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee229/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee229a">EE229A</a></td>
+  <td valign='top'><u>Information Theory and Coding</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee229a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee230">EE230</a></td>
+  <td valign='top'><u>Solid State Electronics</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee230/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee231">EE231</a></td>
+  <td valign='top'><u>Solid State Devices</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee231/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee232">EE232</a></td>
+  <td valign='top'><u>Lightwave Devices</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee232/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee233">EE233</a></td>
+  <td valign='top'><u>Lightwave Systems</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee233/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee235">EE235</a></td>
+  <td valign='top'><u>Nanoscale Fabrication</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee235/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee236a">EE236A</a></td>
+  <td valign='top'><u>Quantum and Optical Electronics</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee236a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee238">EE238</a></td>
+  <td valign='top'><u>Superconductive Devices and Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee238/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee239">EE239</a></td>
+  <td valign='top'><u>Partially Ionized Plasmas</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee239/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee240">EE240</a></td>
+  <td valign='top'><u>Advanced Analog Integrated Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee240/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee240a">EE240A</a></td>
+  <td valign='top'><u>Analog Integrated Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee240a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee241">EE241</a></td>
+  <td valign='top'><u>Advanced Digital Integrated Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee241/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee242">EE242</a></td>
+  <td valign='top'><u>Advanced Integrated Circuits for Communications</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee242/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee243">EE243</a></td>
+  <td valign='top'><u>Advanced IC Processing and Layout</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee243/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee244">EE244</a></td>
+  <td valign='top'><u>Computer Aided Design of Integrated Circuits</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee244/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee245">EECS245</a></td>
+  <td valign='top'><u>Intro to MEMS Design</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee245/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee246">EE246</a></td>
+  <td valign='top'><u>Parametric and Optimal Design of MEMS</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee246/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee247">EE247</a></td>
+  <td valign='top'><u>Analog-Digital Interfaces in VLSI Technology</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee247/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee249">EE249</a></td>
+  <td valign='top'><u>Design of Embedded Systems: Models, Validation, Synthesis</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee249/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290a">EE290A</a></td>
+  <td valign='top'><u>Advanced Topics in Computer-Aided Design</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290a/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290b">EE290B</a></td>
+  <td valign='top'><u>Advanced Topics in Solid State Devices</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290b/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290c">EE290C</a></td>
+  <td valign='top'><u>Advanced Topics in Circuit Design</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290c/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290d">EE290D</a></td>
+  <td valign='top'><u>Advanced Topics in Semiconductor Technology</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290d/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290e">EE290E</a></td>
+  <td valign='top'><u>Advanced Topics in Electromagnetics and Plasmas</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290e/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290f">EE290F</a></td>
+  <td valign='top'><u>Advanced Topics in Photonics</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290f/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290g">EE290G</a></td>
+  <td valign='top'><u>(renamed to EE245)</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290g/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290h">EE290H</a></td>
+  <td valign='top'><u>Semiconductor Manufacturing</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290h/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290i">EE290I</a></td>
+  <td valign='top'><u>Advanced Topics in Wireless Communication</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290i/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290j">EE290J</a></td>
+  <td valign='top'><u>Advanced Topics in Electrical Engineering</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290j/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290n">EE290N</a></td>
+  <td valign='top'><u>Advanced Topics in System Theory</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290n/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290n-1">EE290N-1</a></td>
+  <td valign='top'><u></u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290n-1/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290o">EE290O</a></td>
+  <td valign='top'><u>Embedded Software Engineering</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290o/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290q">EE290Q</a></td>
+  <td valign='top'><u>Advanced Topics in Networking</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290q/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290q-1">EE290Q-1</a></td>
+  <td valign='top'><u></u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290q-1/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290q-2">EE290Q-2</a></td>
+  <td valign='top'><u></u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290q-2/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290s">EE290S</a></td>
+  <td valign='top'><u>Advanced Topics</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290s/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290t">EE290T</a></td>
+  <td valign='top'><u>Advanced Topics in Signal Processing</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290t/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290x">EE290X</a></td>
+  <td valign='top'><u>Strategic Computing and Communications Technology</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290x/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee290y">EE290Y</a></td>
+  <td valign='top'><u>Organic Materials in Electronics</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee290y/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee291">EE291</a></td>
+  <td valign='top'><u>Control and Optimization of Distributed Parameters ...</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee291/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee291e">EE291E</a></td>
+  <td valign='top'><u>Hybrid Systems and Intelligent Control</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee291e/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee298">EE298</a></td>
+  <td valign='top'><u>EE 298 Seminar Home Pages</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee298/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee299">EE299</a></td>
+  <td valign='top'><u>Individual Research</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee299/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee301">EE301</a></td>
+  <td valign='top'><u>Teaching Techniques for Electrical Engineering</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee301/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  <tr>
+  <td valign='top'>&nbsp;</td>
+  <td valign='top'><a href="http://inst.eecs.berkeley.edu/~ee602">EE602</a></td>
+  <td valign='top'><u>Individual Study for Doctoral Students</u> &nbsp;
+  [<a href="http://inst.eecs.berkeley.edu/~ee602/archives.html">archives</a>]</td>
+  </tr>
+  <tr><td colspan='4'></td></tr>
+  </table>
+  </td>
+  </tr>
+  </table>
+  </center>
+  <p></p>
+<p><strong><em>Last modified: Thursday, January 24, 2013</em></strong></p>
+<p><a href="mailto:inst@inst.eecs.berkeley.edu">inst@eecs.berkeley.edu</a></p>
+<p></BODY>
+  </HTML></p></div>
+<hr>
+<h2>Comments</h2>
+﻿﻿<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'hmean'; 
+    var disqus_title = 'UC Berkeley EECS课程资源介绍';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</div>
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            
+           <ul class="list-unstyled">
+<!--              <li class="pull-right"><a href="#top">Back to top</a></li>-->
+              <li id="back-to-top" class=" pull-right"><a href="#"><i class="icon-angle-up icon-3x"></i></a></li>  <!--  link back to top -->
+<!--               <li><a href="http://news.bootswatch.com" onclick="pageTracker._link(this.href); return false;">Blog</a></li>
+              <li><a href="http://feeds.feedburner.com/bootswatch">RSS</a></li>
+              <li><a href="https://twitter.com/thomashpark">Twitter</a></li>
+              <li><a href="https://github.com/thomaspark/bootswatch/">GitHub</a></li>
+              <li><a href="../help/#api">API</a></li> -->
+            </ul>
+<!--            <p>power by <a href="http://blog.getpelican.com/">pelican</a></p>-->
+          </div>
+        </div>
+      </footer>
+
+    </div>  <!-- end container-->
+
+
+    <script src="http://chimeh.github.io/theme/jquery/jquery.min.js"></script>
+    <script src="http://chimeh.github.io/theme/bootstrap/bootstrap.min.js"></script>
+    <script src="http://chimeh.github.io/theme/bootswatch/bootswatch.js"></script>
+    <script src="http://chimeh.github.io/theme/jquery/jquery.js""></script> 
+    <script src="http://chimeh.github.io/theme/jquery/jquery.scrollto.js""></script> 
+    <script src="http://chimeh.github.io/theme/jquery/jquery.localscroll.js""></script> 
+    <script type="text/javascript" charset="utf-8">
+                        $(function(){
+                                var scrollOpts = {
+                                        queue:true,
+                                        duration:1500,
+                                        offset:-100,
+                                        hash:true
+                                };
+                                
+                                $.localScroll.hash( scrollOpts );
+                                $.localScroll( scrollOpts );
+                                
+                                $('#back-to-top').click(function(e){
+                                        $.scrollTo(0, 1500);
+                                        e.preventDefault();
+                                });
+                        });
+                
+    </script>
+﻿
+<div style="display:none">
+<script language="javascript" type="text/javascript"
+src="http://js.users.51.la/16451071.js"></script>
+<noscript><a href="http://www.51.la/?16451071" target="_blank">
+<img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" 
+src="http://img.users.51.la/16451071.asp" style="border:none" /></a>
+</noscript>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42963057-1', 'http://chimeh.github.io');
+  ga('send', 'pageview');
+</script>
+
+        
+  </body>
+</html>
