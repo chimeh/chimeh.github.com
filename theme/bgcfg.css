@@ -1,4 +1,5 @@
-body{font-family: "Lato","Helvetica Neue","Microsoft YaHei",stsong,SimSun,Helvetica,Arial,sans-serif,Inconsolata;}
+body{font-family:  Helvetica, Tahoma, Arial, "Microsoft YaHei", "微软雅黑", SimSun "宋体", Heiti, "黑体", sans-serif, Inconsolata, "Monaco","Courier";
+     font-size:14px;}
 /*body{font-family:"Lato","Helvetica Neue",Helvetica,stsong,Arial,sans-serif;}*/
 h1, h2, h3{font-size:22px;}
 h4 h5 h6{font-size:18px;}
@@ -17,8 +18,6 @@ p{font-size:14px}
 
 img{max-width:100%;}/* 为图片可缩放至进容器 */ 
 
-body{font-family: Verdana"Lato","Helvetica Neue",stsong,"Microsoft YaHei",Helvetica,Arial,sans-serif,Inconsolata;
-     font-size:14px;}
 
 h1{font-size:22px;}
 h2, h3, h4{font-size:18px;}
